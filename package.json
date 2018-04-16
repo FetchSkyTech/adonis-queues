@@ -1,0 +1,52 @@
+{
+  "name": "adonis-queues",
+  "version": "1.0.0",
+  "description": "Queue package for Adonisjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FetchSkyTech/adonis-queues.git"
+  },
+  "keywords": [
+    "adonis",
+    "adonisjs",
+    "adonis-queue",
+    "adonis-queues",
+    "rabbitmq",
+    "amqplib",
+    "queue"
+  ],
+  "author": {
+    "name": "Hadi Rajani",
+    "email": "hrajani@fetchsky.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FetchSkyTech/adonis-queues.git"
+  },
+  "homepage": "https://github.com/FetchSkyTech/adonis-queues",
+  "peerDependencies": {
+    "@adonisjs/ace": "git+https://github.com/adonisjs/ace.git#dawn",
+    "@adonisjs/fold": "^4.0.7",
+    "@adonisjs/drive": "^1.0.2"
+  },
+  "devDependencies": {
+    "@adonisjs/ace": "git+https://github.com/adonisjs/ace.git#dawn",
+    "@adonisjs/fold": "^4.0.7",
+    "@adonisjs/drive": "^1.0.2",
+    "coveralls": "^2.11.4",
+    "mustache": "^2.3.0",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.2"
+  },
+  "standard": {
+    "globals": [
+      "use"
+    ]
+  }
+}

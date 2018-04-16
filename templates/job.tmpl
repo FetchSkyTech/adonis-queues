@@ -1,0 +1,26 @@
+'use strict';
+const QueueJob = use('Adonis/Src/Queue/Job');
+
+class {{Job}} extends QueueJob {
+  
+  /**
+   * Path of the job.
+   *
+   * @returns {String}
+   */
+  get path() {
+    return 'App/Jobs/{{Job}}';
+  }
+
+  /**
+   * Execute the job.
+   *
+   * @param {String|Object} data
+   * @returns {Promise}
+   */
+  async handle(data) {
+    
+  }
+}
+
+module.exports = {{Job}};
